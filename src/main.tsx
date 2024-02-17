@@ -1,18 +1,15 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App.tsx'
 import './index.css'
-import { GoogleOAuthProvider } from '@react-oauth/google'
+import Root from './routes/root.tsx'
+
+
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
 
-  <GoogleOAuthProvider clientId="386932037035-k8v833noqjk7m4***********.apps.googleusercontent.com">
+    <>
     <React.StrictMode>
-      <App />
+    </React.StrictMode><Root /><React.StrictMode>
     </React.StrictMode>
-
-    <React.StrictMode>
-      <App />
-    </React.StrictMode>
-  </GoogleOAuthProvider>
+    </>
 )

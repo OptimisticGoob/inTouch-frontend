@@ -1,0 +1,42 @@
+.public-profile {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    background-color: #fff;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .avatar {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+  }
+  
+  .public-profile h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .public-profile p {
+    margin-bottom: 10px;
+  }
+  
+  .public-profile button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 0px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    justify-content: flex-end;
+  }
+  
+  .public-profile button:hover {
+    background-color: #0056b3;
+  }
+  

@@ -1,0 +1,28 @@
+.post-card {
+  display: flex; 
+  flex-direction: column; 
+  border: 1px solid #ccc;
+  padding: 16px;
+  margin-bottom: 16px;
+  background-color: #fff;
+}
+
+.post-card h2 {
+  margin-bottom: 8px;
+  font-size: 18px;
+}
+
+.post-card p {
+  margin-bottom: 8px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.post-text {
+  flex: 1; 
+}
+
+.post-card p:last-child {
+  margin-left: auto; 
+  font-weight: bold;
+}

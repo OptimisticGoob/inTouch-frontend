@@ -1,0 +1,39 @@
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    position: fixed;
+    height: 50px;
+    z-index: 9999;
+    
+  }
+  
+  .left-section {
+    display: flex;
+    align-items: center;
+  }
+  
+  .left-section h1 {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  
+  .center-section {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .center-section input[type="text"] {
+    margin-top: 15px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    width: 300px; 
+  }
+  .app-logo {
+    transform: translateX(-40px)
+  }

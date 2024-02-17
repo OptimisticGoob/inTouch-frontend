@@ -1,29 +1,26 @@
+import React from "react"
+import { Link } from 'react-router-dom'
+import "./NavigationMenu.css"
 export const NavigationMenu = () => {
-
-
-
-
-    return (<div>
-        <ul className="navList">
-            <li>
-                <a className="Active" href="#home">Home </a>
+    return (
+        <nav className="navigation">
+          <ul className="nav-list">
+            <li className="nav-item">
+              <Link to="/">Home</Link>
             </li>
-            <li>
-                <a className="Profile" href="#profile">Profile </a>
+            <li className="nav-item">
+              <Link to="/profile">Profile</Link>
             </li>
-            <li>
-                <a className="Friends" href="#friends">Friends </a>
+            <li className="nav-item">
+              <Link to="/friends">Friends</Link>
             </li>
-            <li>
-                <a className="Events" href="#Events">Events </a>
+            <li className="nav-item">
+              <Link to="/settings">Settings</Link>
             </li>
-            <li>
-                <a className="Settings" href="#friends">Settings </a>
-            </li>
-            <li>
-                <a className="About" href="#friends">About </a>
-            </li>
-        </ul>
-    </div>
-    )
+            {/* Add more navigation links as needed */}
+          </ul>
+        </nav>
+      );
 }
+
+export default NavigationMenu

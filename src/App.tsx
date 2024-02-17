@@ -1,18 +1,17 @@
-import { useState } from 'react'
 import './App.css'
-import { LoginCard } from './components/LoginCard/LoginCard'
-import { NavigationMenu } from './components/NavigationMenu/NavigationMenu'
+import Root from './routes/root';
+import { BrowserRouter as Router } from 'react-router-dom';
+import ReactDOM from 'react-dom';
 
 function App() {
-  const [count, setCount] = useState(0)
+  ReactDOM.render(
+    <Router>
+      <Root />
+    </Router>,
 
-  return (
-    <>
-      <div className="backDrop">
-      <LoginCard></LoginCard>
-      </div>
-    </>
-  )
+    document.getElementById('root')
+  );
+
 }
 
 export default App
