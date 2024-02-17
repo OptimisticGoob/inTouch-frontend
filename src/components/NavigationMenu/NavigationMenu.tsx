@@ -1,4 +1,3 @@
-import React from "react"
 import { Link } from 'react-router-dom'
 import "./NavigationMenu.css"
 export const NavigationMenu = () => {
@@ -17,7 +16,6 @@ export const NavigationMenu = () => {
             <li className="nav-item">
               <Link to="/settings">Settings</Link>
             </li>
-            {/* Add more navigation links as needed */}
           </ul>
         </nav>
       );
