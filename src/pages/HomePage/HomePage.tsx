@@ -1,14 +1,19 @@
 import Feed from "../../components/Feed/Feed"
 import NavigationMenu from "../../components/NavigationMenu/NavigationMenu"
+import SubmitButton from "../../components/Submission/SubmissionButton/SubmitButton"
 import TopBar from "../../components/TopBar/Topbar"
 import "./HomePage.css"
 const HomePage = () => {
-    
+
     return (
-        <><TopBar></TopBar><main>
-            <NavigationMenu />
-            <Feed></Feed>
-        </main></>
+        <>
+            <TopBar />
+            <main>
+                <NavigationMenu />
+                <SubmitButton></SubmitButton>
+                <Feed></Feed>
+            </main>
+        </>
     )
 }
 

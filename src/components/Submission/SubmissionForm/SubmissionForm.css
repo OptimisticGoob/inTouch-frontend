@@ -1,0 +1,45 @@
+.submit-container {
+    padding:20px;
+}
+
+.form-card{
+    width:500px;
+}
+
+
+
+  .form-card label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .form-card input[type='text'],
+  .form-card input[type='date'],
+  .form-card textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .form-card textarea {
+    resize: vertical; /* Allow vertical resizing of textarea */
+  }
+  
+  .form-card button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .form-card button:hover {
+    background-color: #0056b3;
+  }
+  

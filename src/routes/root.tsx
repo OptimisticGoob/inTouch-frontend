@@ -3,6 +3,7 @@ import HomePage from "../pages/HomePage/HomePage";
 import FriendPage from "../pages/FriendPage/FriendPage";
 import PrivateProfilePage from "../pages/PrivateProfilePage/PrivateProfilePage";
 import PublicProfilePage from '../pages/PublicProfilePage/PublicProfilePage';
+import SubmissionPage from '../pages/SubmissionPage/SubmissionPage';
 
 const Root = () => {
     return (
@@ -12,6 +13,7 @@ const Root = () => {
         <Route path="/profile" element={<PrivateProfilePage />} />
         <Route path="/user/:userId" element={<PublicProfilePage />} />
         <Route path="/friends" element={<FriendPage />} />
+        <Route path="/submit" element={<SubmissionPage />} />
       </Routes>
       </Router>
     )
