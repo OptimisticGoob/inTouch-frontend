@@ -31,8 +31,8 @@
   .form-card button {
     display: block;
     width: 100%;
-    padding: 10px;
-    background-color: #007bff;
+    margin-left: 10px;
+    background-color: #A7F3D0;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -40,6 +40,6 @@
   }
   
   .form-card button:hover {
-    background-color: #0056b3;
+    background-color: #686d6b;
   }
   

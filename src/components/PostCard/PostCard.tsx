@@ -10,6 +10,7 @@ interface PostCardProps {
 
 const PostCard: React.FC<PostCardProps> = ({title, postText, date}) => {
 
+const handleClick = () => {}
 const fdate = new Date(date);
 
 const options: Intl.DateTimeFormatOptions = {
@@ -21,7 +22,7 @@ const options: Intl.DateTimeFormatOptions = {
   const formatter = new Intl.DateTimeFormat("en-US", options);
   const formattedDate = formatter.format(fdate);
     return (
-        <div className="post-card"> 
+        <div className="post-card" onClick={handleClick}> 
         <h2>{title}</h2>
         <p>{postText}</p>
         <p>{formattedDate}</p>

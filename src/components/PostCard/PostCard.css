@@ -3,8 +3,11 @@
   flex-direction: column; 
   border: 1px solid #ccc;
   padding: 16px;
-  margin-bottom: 16px;
+  margin: 16px;
   background-color: #fff;
+  border-radius: 20px;
+  transition: all .2s ease-in-out;
+  z-index: 9999;  
 }
 
 .post-card h2 {
@@ -25,4 +28,11 @@
 .post-card p:last-child {
   margin-left: auto; 
   font-weight: bold;
+}
+
+.post-card:hover {
+  background-color: #A7F3D0;
+  border-color: #A7F3D0;
+  cursor: pointer;
+  transform: scale(1.01);
 }

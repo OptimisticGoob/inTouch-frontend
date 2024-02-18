@@ -33,7 +33,12 @@ const TopBar: React.FC = () => {
         <div className="center-section">
           <h1>User</h1>
         </div>
-      ): null} {}
+      )  : currentPage.startsWith('/submit') ? (
+        <div className="center-section">
+          <h1>Submit an Event</h1>
+        </div>
+      ):
+      null} {}
       {/* <div className="center-section">
         <SearchBar onSearch={function (results: any[]): void {
                   throw new Error('');

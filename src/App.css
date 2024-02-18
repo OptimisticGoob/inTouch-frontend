@@ -1,0 +1,49 @@
+body, h1, h2, h3, p, ul, ol, li, button, input {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Global styles */
+  body {
+    background-color: #f6f7f8;
+    color: #1a1a1b;
+  }
+  
+  a {
+    color: #0079d3;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  button {
+    border: none;
+    background-color: transparent;
+    color: green;
+    cursor: pointer;
+  }
+  
+  input[type="text"],
+  input[type="password"],
+  input[type="email"],
+  textarea {
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    color: #1a1a1b;
+    font-size: 14px;
+  }
+  
+  input[type="text"]:focus,
+  input[type="password"]:focus,
+  input[type="email"]:focus,
+  textarea:focus {
+    outline: none;
+    border-color: #0079d3;
+  }
+  

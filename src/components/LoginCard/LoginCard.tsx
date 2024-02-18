@@ -23,9 +23,6 @@ export const LoginCard = () => {
         </div>
 
         <br />
-
-        <GoogleLogin onSuccess={responseMessage} onError={errorMessage} />
-        <p className = {"orDivider"}>or</p>
         <br />
         <div className={"inputContainer"}>
             <input
