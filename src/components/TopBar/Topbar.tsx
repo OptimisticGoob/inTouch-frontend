@@ -25,9 +25,9 @@ const TopBar: React.FC = () => {
         <div className="center-section">
           <h1>Profile</h1>
         </div>
-      ) : currentPage === '/friends' ? (
+      ) : currentPage === '/Followers' ? (
         <div className="center-section">
-          <h1>Friends</h1>
+          <h1>Followers</h1>
         </div>
       )  : currentPage.startsWith('/user') ? (
         <div className="center-section">

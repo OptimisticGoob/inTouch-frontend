@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import HomePage from "../pages/HomePage/HomePage";
-import FriendPage from "../pages/FriendPage/FriendPage";
+import FollowerPage from "../pages/FollowerPage/FollowerPage";
 import PrivateProfilePage from "../pages/PrivateProfilePage/PrivateProfilePage";
 import PublicProfilePage from '../pages/PublicProfilePage/PublicProfilePage';
 import SubmissionPage from '../pages/SubmissionPage/SubmissionPage';
@@ -13,7 +13,7 @@ const Root = () => {
         <Route path="/" element={<HomePage />} />
         <Route path="/profile" element={<PrivateProfilePage />} />
         <Route path="/user/:userId" element={<PublicProfilePage />} />
-        <Route path="/friends" element={<FriendPage />} />
+        <Route path="/Followers" element={<FollowerPage />} />
         <Route path="/submit" element={<SubmissionPage />} />
         <Route path="/login" element={<LoginPage ></LoginPage>} />
       </Routes>

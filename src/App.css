@@ -4,8 +4,7 @@ body, h1, h2, h3, p, ul, ol, li, button, input {
     border: 0;
     font-family: Arial, sans-serif;
   }
-  
-  /* Global styles */
+
   body {
     background-color: #f6f7f8;
     color: #1a1a1b;
@@ -44,6 +43,6 @@ body, h1, h2, h3, p, ul, ol, li, button, input {
   input[type="email"]:focus,
   textarea:focus {
     outline: none;
-    border-color: #0079d3;
+    border-color: #00d37b;
   }
   

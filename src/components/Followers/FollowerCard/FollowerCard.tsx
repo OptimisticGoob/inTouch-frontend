@@ -1,16 +1,16 @@
 import React from 'react';
-import './FriendCard.css';
+import './FollowerCard.css';
 
-interface FriendCardProps {
+interface FollowerCardProps {
   avatarSrc: string;
   username: string;
   onCloseClick: () => void;
   onVisitClick: () => void;
 }
 
-const FriendCard: React.FC<FriendCardProps> = ({ avatarSrc, username, onCloseClick, onVisitClick }) => {
+const FollowerCard: React.FC<FollowerCardProps> = ({ avatarSrc, username, onCloseClick, onVisitClick }) => {
   return (
-    <div className="friend-card">
+    <div className="Follower-card">
       <button className="close-button" onClick={onCloseClick}>X</button>
       <div className="avatar-container">
         <img src={avatarSrc} alt="Avatar" className="avatar" />
@@ -21,4 +21,4 @@ const FriendCard: React.FC<FriendCardProps> = ({ avatarSrc, username, onCloseCli
   );
 };
 
-export default FriendCard
+export default FollowerCard

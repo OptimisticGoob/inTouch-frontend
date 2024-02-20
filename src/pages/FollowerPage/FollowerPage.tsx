@@ -1,17 +1,18 @@
-import FriendGrid from "../../components/Friend/FriendGrid/FriendGrid"
+
+import FollowerGrid from "../../components/Followers/FollowerGrid/FollowerGrid"
 import NavigationMenu from "../../components/NavigationMenu/NavigationMenu"
 import TopBar from "../../components/TopBar/Topbar"
 
-const FriendPage = () => {
+const FollowerPage = () => {
 
 
     return (
         <main>
         <TopBar></TopBar>
         <NavigationMenu />
-        <FriendGrid />
+        <FollowerGrid />
         </main>
     )
 }
 
-export default FriendPage
+export default FollowerPage

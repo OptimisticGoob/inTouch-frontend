@@ -11,7 +11,7 @@ export const NavigationMenu = () => {
               <Link to="/profile">Profile</Link>
             </li>
             <li className="nav-item">
-              <Link to="/friends">Friends</Link>
+              <Link to="/Followers">Followers</Link>
             </li>
             <li className="nav-item">
               <Link to="/settings">Settings</Link>

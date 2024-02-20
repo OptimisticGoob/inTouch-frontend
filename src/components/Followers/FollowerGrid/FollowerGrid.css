@@ -1,4 +1,4 @@
-.friend-grid {
+.Follower-grid {
     display: flex;
     flex-wrap: wrap; 
     gap: 20px; 
@@ -9,7 +9,7 @@
   }
   
 
-  .friend-grid > * {
+  .Follower-grid > * {
 
   }
   
