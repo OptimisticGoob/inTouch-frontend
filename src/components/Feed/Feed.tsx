@@ -35,6 +35,7 @@ const Feed = () => {
             {posts.map(post => (
               <PostCard
                 key={post.postID }
+                postID={post.postID}
                 title={post.title}
                 postText={post.postText}
                 date={post.date}

@@ -5,17 +5,17 @@ export const NavigationMenu = () => {
         <nav className="navigation">
           <ul className="nav-list">
             <li className="nav-item">
-              <Link to="/">Home</Link>
+              <Link to="/"><div>Home</div></Link>
             </li>
             <li className="nav-item">
-              <Link to="/profile">Profile</Link>
+              <Link to="/profile"><div>Profile</div></Link>
             </li>
             <li className="nav-item">
-              <Link to="/Followers">Followers</Link>
+              <Link to="/Followers"><div>Followers</div></Link>
             </li>
-            <li className="nav-item">
-              <Link to="/settings">Settings</Link>
-            </li>
+            {/* <li className="nav-item">
+              <Link to="/settings"><div>Settings</div></Link>
+            </li> */}
           </ul>
         </nav>
       );

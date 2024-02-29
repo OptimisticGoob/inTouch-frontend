@@ -1,16 +1,22 @@
 import React from 'react'
 import "./PostCard.css"
+import { useNavigate } from 'react-router-dom';
 
 
 interface PostCardProps {
     title: string;
     postText: string;
     date: string;
+    postID: string;
 }
 
-const PostCard: React.FC<PostCardProps> = ({title, postText, date}) => {
+const PostCard: React.FC<PostCardProps> = ({title, postText, date, postID}) => {
 
-const handleClick = () => {}
+
+  const navigate = useNavigate();
+  const handleClick = () => {
+    navigate(`/post/${postID}`);
+  };
 const fdate = new Date(date);
 
 const options: Intl.DateTimeFormatOptions = {

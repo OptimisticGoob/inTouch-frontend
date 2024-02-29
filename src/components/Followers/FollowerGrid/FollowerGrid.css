@@ -1,15 +1,17 @@
-.Follower-grid {
+.follower-grid {
     display: flex;
     flex-wrap: wrap; 
+    justify-content:center;
     gap: 20px; 
     padding: 20px; 
-    margin-top: 50px;
-    max-width: 50%;
+    margin-top: 100px;
+    max-width: 100%;
     border-color: black;
+   
   }
   
 
-  .Follower-grid > * {
+  .follower-grid > * {
 
   }
   

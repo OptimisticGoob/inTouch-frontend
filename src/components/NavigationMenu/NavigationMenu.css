@@ -22,6 +22,14 @@
   
 }
 
+.nav-item div{
+  width: 250px;
+  display: flex;
+  flex-grow: inherit;
+}
+
+
+
 .nav-item a {
   display: block; 
   color: inherit; 

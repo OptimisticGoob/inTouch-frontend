@@ -13,13 +13,12 @@ const TopBar: React.FC = () => {
     <div className="top-bar">
       <div className="left-section">
         <h1>InTouch</h1>
-        <img className="app-logo" src="src/assets/logoSpiral.svg" alt="DotSpiral" />
       </div>
       {currentPage === '/' ? (
        <div className="center-section">
-       <SearchBar onSearch={function (results: any[]): void {
+       {/* <SearchBar onSearch={function (results: any[]): void {
                  throw new Error('');
-             } } />
+             } } /> */}
      </div>
       ) : currentPage === '/profile' ? (
         <div className="center-section">

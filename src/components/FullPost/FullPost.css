@@ -1,0 +1,23 @@
+.full-post {
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 20px;
+    margin-top: 25px;
+    margin-left: 30%;
+    max-width: 500px;
+}
+
+.author {
+    display:flex;
+    justify-content: flex-end;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+hr {
+    border: 2px solid #A7F3D0
+}

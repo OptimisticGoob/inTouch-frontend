@@ -1,6 +1,5 @@
 import { useState } from "react"
 import "./LoginCard.css"
-import { GoogleLogin } from "@react-oauth/google"
 
 export const LoginCard = () => {
 
@@ -27,7 +26,7 @@ export const LoginCard = () => {
         <div className={"inputContainer"}>
             <input
                 value={email}
-                placeholder="sign in with email"
+                placeholder="sign in"
                 onChange={ev => setEmail(ev.target.value)}
                 className={"inputBox"} />
         </div>
@@ -35,6 +34,7 @@ export const LoginCard = () => {
         <div className={"inputContainer"}>
             <input
                 value={password}
+                type="password"
                 placeholder="password"
                 onChange={ev => setPassword(ev.target.value)}
                 className={"inputBox"} />

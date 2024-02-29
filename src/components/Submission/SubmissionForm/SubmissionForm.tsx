@@ -72,7 +72,6 @@ const SubmissionForm: React.FC = () => {
         <textarea
           id="message"
           name="message"
-          value={formData.eventInfo}
           onChange={handleChange}
           rows={4}
           required

@@ -4,10 +4,14 @@ import { BrowserRouter as Router } from 'react-router-dom';
 import ReactDOM from 'react-dom';
 
 function App() {
+
+ 
+  
   ReactDOM.render(
     <Router>
       <Root />
-    </Router>,
+    </Router>
+    ,
 
     document.getElementById('root')
   );

@@ -26,17 +26,31 @@
     margin-bottom: 10px;
   }
   
-  .public-profile button {
-    padding: 8px 16px;
-    border: none;
-    border-radius: 0px;
-    background-color: #007bff;
-    color: #fff;
-    cursor: pointer;
-    justify-content: flex-end;
-  }
+
   
   .public-profile button:hover {
     background-color: #0056b3;
   }
-  
+  .public-profile {
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 20px;
+    margin-top: 25px;
+    margin-left: 30%;
+    max-width: 500px;
+}
+
+.author {
+    display:flex;
+    justify-content: flex-end;
+}
+
+button {
+    display: flex;
+    justify-content: space-between;
+}
+
+hr {
+    border: 2px solid #A7F3D0
+}
